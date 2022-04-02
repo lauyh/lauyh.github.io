@@ -1,0 +1,36 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'Yee Heng Programming Notes'
+theme = 'risotto'
+author = "Lau Yee Heng"
+copyright = "© 2021 Yee Heng"
+paginate = 3
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+
+sectionPagesMenu = "main"
+
+[params]
+
+[params.theme]
+palette = "gruvbox-dark"
+mode = "dark-mode"
+
+# Sidebar: about/bio
+[params.about]
+title = "risotto"
+description = "A [hugo](https://gohugo.io) theme inspired by terminal ricing."
+logo = "images/rice.svg"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
