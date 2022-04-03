@@ -1,4 +1,4 @@
-baseURL = 'http://lauyh.github.io'
+baseURL = 'https://lauyh.github.io'
 languageCode = 'en-us'
 title = 'Yee Heng Programming Notes'
 theme = 'risotto'
