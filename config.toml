@@ -22,6 +22,15 @@ title = "risotto"
 description = "A [hugo](https://gohugo.io) theme inspired by terminal ricing."
 logo = "images/rice.svg"
 
+[[params.socialLinks]]
+icon = "fab fa-github"
+title = "GitHub"
+url = "https://github.com/lauyh"
+
+[[params.socialLinks]]
+icon = "fas fa-envelope"
+title = "Email"
+url = "mailto:lauyh87@gmail.com"
 [menu]
 
   [[menu.main]]
