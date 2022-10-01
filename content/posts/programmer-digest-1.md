@@ -1,17 +1,14 @@
 ---
 title: "Programmer Digest 1"
 date: 2022-04-03T16:02:18+08:00
-draft: false
+draft: true
 ---
 This is a post regarding the summary of 
 <!-- Openning about the difference between ivoery tower and school of hard knocks on programming -->
 <!-- Need to rephrase the following points -->
 ## School of Hard Knocks on IT World
-1. The harsh reality of “the streets,” the world of professional software develop-
-ment, requires a set of skills that are not taught or prioritized in formal educa-
-tion or sometimes are completely missed in self-teaching.
-2. New software developers tend to either care about theory or to completely
-ignore it. You’ll find a middle point eventually, but achieving that can be accel-
+1. The harsh reality of “the streets,” the world of professional software development, requires a set of skills that are not taught or prioritized in formal education or sometimes are completely missed in self-teaching.
+2. Fresh software developer tends to either care about theory or to completely ignore it. You’ll find a middle point eventually, but achieving that can be accel-
 erated with a certain perspective.
 3. Modern software development is vastly more complex than it was a couple of
 decades ago. It requires tremendous knowledge on many levels just to develop
