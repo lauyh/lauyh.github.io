@@ -1,45 +1,52 @@
 baseURL = 'https://lauyh.github.io'
 languageCode = 'en-us'
-title = 'Yee Heng Programming Notes'
-theme = 'risotto'
-author = "Lau Yee Heng"
-copyright = "© 2021 Yee Heng"
-paginate = 3
-DefaultContentLanguage = "en"
-enableInlineShortcodes = true
+title = 'YeeHeng'
+theme="archie"
+copyright = "© YeeHeng"
 
-sectionPagesMenu = "main"
+# Code Highlight
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+
+paginate=5 # articles per page
 
 [params]
+	mode="dark" # color-mode → light,dark,toggle or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them local
 
-[params.theme]
-palette = "gruvbox-dark"
-mode = "dark-mode"
+# Social Tags
 
-# Sidebar: about/bio
-[params.about]
-title = "risotto"
-description = "A [hugo](https://gohugo.io) theme inspired by terminal ricing."
-logo = "images/rice.svg"
-
-[[params.socialLinks]]
-icon = "fab fa-github"
-title = "GitHub"
+[[params.social]]
+name = "GitHub"
+icon = "github"
 url = "https://github.com/lauyh"
 
-[[params.socialLinks]]
-icon = "fas fa-envelope"
-title = "Email"
-url = "mailto:lauyh87@gmail.com"
-[menu]
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
+[[params.social]]
+name = "GitLab"
+icon = "gitlab"
+url = "https://gitlab.com/lauyh87"
 
-[taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+# Main menu Items
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4

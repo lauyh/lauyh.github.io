@@ -1,10 +1,11 @@
 ---
 title: About
+date: 2022-04-03T17:05:33+08:00
+draft: false
 ---
- I am Richard, currently working as a Software Developer in a Software House company.
- The daily task that I working on is designing and implementing the algorithm based on the 
- new requirement and do the testing to ensure the algorithm is working correctly.
- The technology stack that I working on are NodeJS, ReactJS, and MySQL.
+ I am Yee Heng a.k.a Richard, currently working as a Senior Web Developer at Cyber Village Sdn Bhd.
+ My daily routine is developing new API and mobile app based on the requirement from client.
+ The technology stack that I working on are Angular, Ionic, Java Spring and JPA.
 
  I am passionate to explore new technologies and get the hand dirty on trying the new stuff.
  
